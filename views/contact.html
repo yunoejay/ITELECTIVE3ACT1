@@ -1,10 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Contact | ITElective3 Multi-Page Demo</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-contact
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form novalidate>
+      <div>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required>
+        <div class="error"></div>
+      </div>
+      <div>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required>
+        <div class="error"></div>
+      </div>
+      <div>
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <div class="error"></div>
+      </div>
+      <div class="success"></div>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+  <footer>
+    &copy; 2025 ITElective3 Demo Site. All rights reserved.
+  </footer>
+  <script src="assets/script.js"></script>
 </body>
 </html>
