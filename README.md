@@ -36,16 +36,48 @@ A simple, modern, and fully responsive multi-page website built with **pure HTML
 ## 🚀 **Getting Started**
 
 1. **Clone or download this repository.**
-2. Open any page (e.g., `index.html`) in your browser to view the site.
-   - For navigation and 404 testing, use a simple local server:
-     - With Python 3:  
-       ```
-       cd public
-       python -m http.server
-       ```
-     - Then visit: `http://localhost:8000/`
-3. Edit the HTML, CSS, or JS files as needed.
 
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+````
+
+3. **Start the local server:**
+
+   ```bash
+   node index.js
+   ```
+
+   * The server will run at: `http://localhost:3000/` (or your configured port)
+
+4. **Navigate the site:**
+
+   * Visit routes like:
+
+     * `/` – Home page
+     * `/about`, `/contact`, `/services`, etc.
+   * Test invalid routes to see the 404 page (e.g., `/nonexistent`)
+
+5. **Make changes:**
+
+   * Edit the HTML files in the `views/` folder or update routes in `index.js` as needed.
+
+````
+
+---
+
+### ✅ Optional Improvements:
+If you're using **nodemon** for auto-restart on file changes, add this tip:
+
+```md
+> 💡 Tip: For development, install `nodemon` for auto-reload:
+> 
+> ```bash
+> npm install -g nodemon
+> nodemon index.js
+> ```
+````
 ---
 
 ## 📝 **Contact Form**
@@ -77,4 +109,3 @@ Created for the **ITElective3** course as a frontend fundamentals demo.
 ---
 
 &copy; 2025 ITElective3 Demo Site. All rights reserved.
-````
