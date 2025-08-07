@@ -11,7 +11,7 @@ A simple, modern, and fully responsive multi-page website built with **pure HTML
 /public
 ├── index.html        # Home Page
 ├── about.html        # About Page
-├── services.html     # Services Page
+├── products.html     # Products Page
 ├── contact.html      # Contact Page (with JS validation)
 ├── 404.html          # Custom 404 Error Page
 └── /assets
@@ -41,7 +41,7 @@ A simple, modern, and fully responsive multi-page website built with **pure HTML
 
    ```bash
    npm install
-````
+   ```
 
 3. **Start the local server:**
 
@@ -94,18 +94,5 @@ If you're using **nodemon** for auto-restart on file changes, add this tip:
 
 ---
 
-## 📚 **Customization**
-
-- Add more pages by duplicating any HTML file and updating the nav.
-- Adjust theme in `assets/style.css`.
-- Add more interactivity in `assets/script.js`.
-
----
-
-## 📢 **Credits**
-
-Created for the **ITElective3** course as a frontend fundamentals demo.
-
----
 
 &copy; 2025 ITElective3 Demo Site. All rights reserved.
